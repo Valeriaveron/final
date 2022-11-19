@@ -5,12 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
- "build-css": "node-sass --include-path scss sass/style.sass css/main.css",
- "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "build-css": "node-sass --include-path scss sass/style.sass css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "keywords": [
     "developer"
   ],
   "author": "valeria veron",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeriaveron/tercer-entrega.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Valeriaveron/tercer-entrega/issues"
+  },
+  "homepage": "https://github.com/Valeriaveron/tercer-entrega#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
 }
